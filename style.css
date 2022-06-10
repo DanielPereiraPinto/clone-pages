@@ -9,7 +9,7 @@
     font-size: 20px;
 }
 .content{
-    width: 600px;
+    width: 650px;
     margin: auto;
 }
 .header{
@@ -34,9 +34,7 @@ select#idlista{
     padding: 10px;
 }
 .footer{
-    color: #ffffff;
-    font-style: italic;
+    color: #000000;
     text-align: center;
-    margin: 15px;
-    text-shadow: 1px 1px #000000;
+    margin: 10px;
 }
