@@ -4,10 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Treinando</title>
 </head>
-<body>
-    <h1>Treinando comandos Git</h1>
-    <p>Comandos direto do terminal.</p>
+<body class="body">
+    <div class="content">
+        <header class="header">
+            <h3>Treinando comandos Git</h3>
+            <p>Comandos direto do terminal.</p>
+            <h1>Análisador de números</h1>
+        </header>
+        
+        <section class="section">
+            <div class="section__div">
+                Número entre 1 e 100:
+                <input id="idnum" type="number" name="num">
+                <input type="button" value="Adicionar" onclick="adicionar()"><br><br>
+                <select name="lista" id="idlista" size="7"></select><br>
+                <input type="button" value="Finalizar" onclick="finalizar()">
+            </div>
+            <div id="resultado" class="section__div">
+                
+            </div>
+        </section>
+
+        <footer class="footer">
+            <p>&Omega;  Daniel PP</p>
+        </footer>
+    </div>
 </body>
+<script src="script.js"></script>
 </html>
