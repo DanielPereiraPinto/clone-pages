@@ -130,8 +130,8 @@
     background-color: #7166ee;
 }
 .input--checkbox:checked::after{
-    border-width: 0 3px 3px 0;
     border: 3px solid white;
+    border-width: 0 3px 3px 0;  /* primeiro o border, depois border-width */
     content: "";
     display: block;
     height: 10px;
