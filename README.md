@@ -1,3 +1,2 @@
-# treinando-git
-Praticando comandos git!!! <br>
-Usando também GitHub Desktop!
+# Clone-pages
+Repositório criado para recriar páginas web!!!<br>
