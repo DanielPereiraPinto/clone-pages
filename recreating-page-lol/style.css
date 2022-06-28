@@ -16,12 +16,16 @@
     --blue: #1B77F3;
     --red: #CF3C3F;
 }
+.main{
+    display: flex;
+}
 .login{
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
     max-width: 500px;
+    min-width: 240px;
     min-height: 100vh;
     padding: clamp(35px,8%,70px);       /* usando clamp(min, preferencial,max) */
 }
@@ -34,7 +38,7 @@
   }
 .login__logo{
     width: 138px;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 .login__title{
     color: var(--deep-grey);
@@ -147,4 +151,33 @@
     background-color: white;
     border: none;
     border: 2px solid rgba(0, 0, 0, 0);
+}
+.login__link{
+    font-size: 00.8em;
+    text-decoration: none;
+    color: var(--medium-grey);
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+.wallpaper{
+    width: 100%;
+    background-image: url('./images/wallpaper.jpg');
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+}
+@media (max-width:730px) {
+    .wallpaper{
+        display: none;
+    }
+    .main{
+        width: 100%;
+        background-image: url(./images/wallpaper-ghost.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .login{
+        margin: auto;
+    }
 }
