@@ -142,15 +142,15 @@
 .login__button{
    background-color: var(--light-grey);
    border-radius: 20px;
-   border: solid 2px #7166ee;
+   border: 2px solid #7166ee;
    cursor: pointer;
    margin-bottom: 60px;
 }
 .login__button:disabled{
     background-color: white;
     border: 2px solid rgba(0, 0, 0, 0);
-    border: none;
     cursor: auto;
+    border-radius: 20px;
 }
 .login__link{
     color: var(--medium-grey);
